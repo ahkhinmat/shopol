@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets\css\bootstrap.min.css" >
+    <link rel="stylesheet" href="assets\css\style.css" >
   </head>
   <body>
 
@@ -51,7 +52,7 @@
 </nav>
       <!-- end menu -->
       <!-- slide -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide mt-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -78,6 +79,61 @@
   </a>
 </div>
       <!-- end slide -->
+      <!-- show procduct -->
+
+<div class="container">
+    <div class="row mt-5">
+      <h2 class="list-product-title"> New product</h2>
+      <div class="list-product-subtitle">
+        <p>List product description
+        </p>
+    </div>
+    <div class="group-product" >
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="card card-product mb-3">
+                <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Product</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Product</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+					<div class="card card-product mb-3">
+					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Product</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+        </div>
+    </div>
+</div>
+      <!-- end product -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets\css\bootstrap3.3.1.slim.min.js"></script>
